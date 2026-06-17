@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>워드마크 로고-학원로고</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="워드마크, 학원, 로고">
+		<meta name="description" content="워드마크-학원로고">
+		<link rel="stylesheet" href="academy-page(1).css">
+	</head>
+	<body>
+		<header class="main-title">
+        <h1>워드마크 로고-학원로고</h1>
+   		</header>
+
+    	<main class="archive-container">
+        
+        <div class="row-wrapper">
+            <a href="page1/combi-page.html" class="logo-brick">
+                <article class="card">
+                    <img src="academy logo1.png" alt="90년대 학원로고 스캔본 1" class="brick-img">
+                </article>
+            </a>
+            <div class="connect-lines"><div class="line"></div></div>
+            <aside class="ad-pure-image ad-01">
+                <img src="word-ad/ad1.png" alt="90년대 학원광고 스캔본 1" class="ad-img">
+            </aside>
+        </div>
+
+        <div class="row-wrapper">
+            <a href="page2/word-page.html" class="logo-brick">
+                <article class="card">
+                    <img src="academy logo2.png" alt="90년대 학원로고 스캔본 2" class="brick-img">
+                </article>
+            </a>
+            <div class="connect-lines"><div class="line"></div></div>
+            <aside class="ad-pure-image ad-02">
+                <img src="word-ad/ad2.png" alt="90년대 학원광고 스캔본 2" class="ad-img">
+            </aside>
+        </div>
+
+        <div class="row-wrapper">
+            <a href="#" class="logo-brick">
+                <article class="card">
+                    <img src="academy logo3.png" alt="90년대 학원로고 스캔본 3" class="brick-img">
+                </article>
+            </a>
+            <div class="connect-lines"><div class="line"></div></div>
+            <aside class="ad-pure-image ad-03">
+                <img src="word-ad/ad3.png" alt="90년대 학원광고 스캔본 3" class="ad-img">
+            </aside>
+        </div>
+
+        <script>
+        const slider = document.querySelector('.archive-container');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 1.6; 
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    </script>
+		</section>
+	</body>
+</html>
