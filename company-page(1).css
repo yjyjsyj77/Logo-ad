@@ -62,7 +62,7 @@ body {
 .card-1 {
     background-color: #ffffff;
     border: 1.5px solid #222222; 
-    height: 200px;           
+    height: 130px;           
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -76,7 +76,7 @@ body {
 .card-2 {
     background-color: #ffffff;
     border: 1.5px solid #222222; 
-    height: 200px;           
+    height: 130px;           
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -90,7 +90,7 @@ body {
 .card-7 {
     background-color: #ffffff;
     border: 1.5px solid #222222; 
-    height: 150px;           
+    height: 130px;           
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -104,7 +104,7 @@ body {
 .card-10 {
     background-color: #ffffff;
     border: 1.5px solid #222222; 
-    height: 200px;           
+    height: 150px;           
     display: flex;
     justify-content: center; 
     align-items: center;
