@@ -98,3 +98,14 @@ a:hover .hover-text {
   body {
     font-size: 14px; /* 모바일 글자 크기 살짝 줄이기 */
 }
+}
+
+@media (max-width: 768px) {
+  .text-box {
+    /* 영문 단어가 길어도 강제로 쪼개서 줄바꿈 해줍니다 */
+    word-break: break-all; 
+    
+    /* 넘치는 단어가 있으면 다음 줄로 넘깁니다 */
+    overflow-wrap: break-word; 
+  }
+}
