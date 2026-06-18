@@ -84,3 +84,17 @@ a:hover .hover-text {
     opacity: 1;
     transform: translate(-50%, -50%);
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 모바일에서는 위아래 세로로 배치! */
+  }
+    
+  body {
+    font-size: 14px; /* 모바일 글자 크기 살짝 줄이기 */
+}
