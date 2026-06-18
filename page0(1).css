@@ -64,3 +64,18 @@ h1 {
     color: #000000;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+@media screen and (max-width: 800px) {
+    .h1, {
+    word-break: break-all; 
+    overflow-wrap: break-word; 
+    width: 100%; 
+    font-size: 16px; 
+  }
+
+  .combi, .word {
+    display: flex;
+    gap: 12px;
+    padding: 10px 16px;
+  }
+}
