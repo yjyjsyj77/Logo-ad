@@ -2,10 +2,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f9f7;
-    background-image: radial-gradient(#dcdcdc 10%, transparent 15%);
-    background-size: 50px 50px;
-    overflow: hidden;
 }
 
 .main-title {
