@@ -53,6 +53,7 @@ body {
     width: 260px;           
     flex-shrink: 0;
     display: block;
+    margin-left: 200px;
 }
 
 .card-1 {
@@ -257,20 +258,20 @@ body {
     height: 180px;
   }
 
-  .ad-01 { margin-right: 80px; }
-  .ad-02 { margin-right: 40px; }
-  .ad-03 { margin-right: 90px; }
-  .ad-04 { margin-right: 50px; }
-  .ad-05 { margin-right: 30px; }
-  .ad-06 { margin-right: 70px; }
-  .ad-07 { margin-right: 40px; }
-  .ad-08 { margin-right: 80px; }
-  .ad-09 { margin-right: 40px; }
-  .ad-10 { margin-right: 90px; }
-  .ad-11 { margin-right: 50px; }
-  .ad-12 { margin-right: 30px; }
-  .ad-13 { margin-right: 70px; }
-  .ad-14 { margin-right: 40px; }
+.ad-01 { margin-right: 500px; } 
+.ad-02 { margin-right: 400px; } 
+.ad-03 { margin-right: 450px; } 
+.ad-04 { margin-right: 600px; }
+.ad-05 { margin-right: 500px; } 
+.ad-06 { margin-right: 400px; }
+.ad-07 { margin-right: 450px; }
+.ad-08 { margin-right: 500px; } 
+.ad-09 { margin-right: 400px; } 
+.ad-10 { margin-right: 450px; } 
+.ad-11 { margin-right: 600px; }
+.ad-12 { margin-right: 500px; } 
+.ad-13 { margin-right: 400px; }
+.ad-14 { margin-right: 450px; }
 }
 
 @media screen and (max-width: 768px) {
@@ -289,6 +290,7 @@ body {
 
   .logo-brick {
     width: 140px;
+    margin-left: 100px;
   }
   
   .card {
@@ -304,18 +306,18 @@ body {
     height: 180px;
   }
 
-  .ad-01 { margin-right: 80px; }
-  .ad-02 { margin-right: 40px; }
-  .ad-03 { margin-right: 90px; }
-  .ad-04 { margin-right: 50px; }
-  .ad-05 { margin-right: 30px; }
-  .ad-06 { margin-right: 70px; }
-  .ad-07 { margin-right: 40px; }
-  .ad-08 { margin-right: 80px; }
-  .ad-09 { margin-right: 40px; }
-  .ad-10 { margin-right: 90px; }
-  .ad-11 { margin-right: 50px; }
-  .ad-12 { margin-right: 30px; }
-  .ad-13 { margin-right: 70px; }
-  .ad-14 { margin-right: 40px; }
+  .ad-01 { margin-right: 100px; }
+  .ad-02 { margin-right: 90px; }
+  .ad-03 { margin-right: 95px; }
+  .ad-04 { margin-right: 110px; }
+  .ad-05 { margin-right: 100px; }
+  .ad-06 { margin-right: 90px; }
+  .ad-07 { margin-right: 95px; }
+  .ad-08 { margin-right: 100px; }
+  .ad-09 { margin-right: 90px; }
+  .ad-10 { margin-right: 95px; }
+  .ad-11 { margin-right: 110px; }
+  .ad-12 { margin-right: 100px; }
+  .ad-13 { margin-right: 90px; }
+  .ad-14 { margin-right: 95px; }
 }
