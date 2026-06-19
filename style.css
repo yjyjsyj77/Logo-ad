@@ -95,11 +95,4 @@ a:hover .hover-text {
     gap: 12px;
     padding: 10px 16px;
   }
-
-    p, span, h1, h2, h3, a {
-    white-space: normal !important;  /* 가로로 한 줄로 길어지는 현상 방지 */
-    word-break: break-all !important;  /* 박스 끝에 닿으면 글자 단위로 강제 줄바꿈 */
-    overflow-wrap: break-word !important; /* 긴 단어도 박스 안에서 쪼개지도록 설정 */
-    max-width: 100% !important;      /* 부모 박스 너비를 절대 넘지 못하게 제한 */
-  }
 }
