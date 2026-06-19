@@ -53,6 +53,7 @@ body {
     width: 260px;           
     flex-shrink: 0;
     display: block;
+    margin-left: 200px;
 }
 
 .card {
@@ -134,9 +135,9 @@ body {
     filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1)); 
 }
 
-.ad-01 { margin-right: 400px; } 
-.ad-02 { margin-right: 150px; } 
-.ad-03 { margin-right: 550px; } 
+.ad-01 { margin-right: 500px; } 
+.ad-02 { margin-right: 400px; } 
+.ad-03 { margin-right: 450px; } 
 
 @media screen and (max-width: 768px) {
   
@@ -154,6 +155,7 @@ body {
 
   .logo-brick {
     width: 140px;
+    margin-left: 100px;
   }
   
   .card {
@@ -164,12 +166,12 @@ body {
     height: 50px;
   }
 
-  .ad-pure-image {
+.ad-pure-image {
     width: 120px; 
     height: 180px;
   }
 
-  .ad-01 { margin-right: 80px; }
-  .ad-02 { margin-right: 40px; }
-  .ad-03 { margin-right: 90px; }
+.ad-01 { margin-right: 100px; }
+.ad-02 { margin-right: 90px; }
+.ad-03 { margin-right: 95px; }
 }
