@@ -62,7 +62,7 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-    .h1, {
+    h1 {
     word-break: break-all; 
     overflow-wrap: break-word; 
     width: 100%; 
