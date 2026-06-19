@@ -5,12 +5,8 @@
 }
 
 body {
-    background-color: #f9f9f7;
-    background-image: radial-gradient(#dcdcdc 10%, transparent 15%);
-    background-size: 50px 50px;
-    font-family: sans-serif;
-    color: #333;
     padding: 40px;
+    background-color: #D6D8E9;
 }
 
 .main-title {
